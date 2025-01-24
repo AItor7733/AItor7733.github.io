@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="최신 패션 스타일과 트렌드를 만나보세요. 남성/여성 의류, 액세서리, 신발 등 다양한 카테고리를 제공합니다.">
+    <title>패션 쇼핑몰 | 스타일의 시작</title>
+    <style>
+        /* 전체 스타일 */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        /* 내비게이션 스타일 */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        /* 메인 섹션 */
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        main h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            font-size: 1.5em;
+            margin: 15px 0 10px;
+        }
+
+        .product p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .product button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .product button:hover {
+            background-color: #f39c12;
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>패션 쇼핑몰</h1>
+        <p>최신 트렌드를 한눈에! 스타일의 시작을 여기서.</p>
+    </header>
+    <nav>
+        <a href="#">홈</a>
+        <a href="#">남성 의류</a>
+        <a href="#">여성 의류</a>
+        <a href="#">신발</a>
+        <a href="#">액세서리</a>
+    </nav>
+    <main>
+        <h2>추천 상품</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="상품 이미지 1">
+                <h3>트렌디 재킷</h3>
+                <p>스타일과 편안함을 동시에! 지금 만나보세요.</p>
+                <button>구매하기</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="상품 이미지 2">
+                <h3>캐주얼 셔츠</h3>
+                <p>일상에서 돋보이는 완벽한 선택!</p>
+                <button>구매하기</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="상품 이미지 3">
+                <h3>모던 슈즈</h3>
+                <p>모든 룩을 완성시켜줄 최고의 슈즈.</p>
+                <button>구매하기</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 패션 쇼핑몰. 모든 권리 보유.</p>
+    </footer>
+</body>
+</html>
